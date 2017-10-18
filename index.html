@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>
+    Google Maps Starter
+  </title>
+  <meta name="description" content="Starter code to hit the ground running with Google Maps.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta name="theme-color" content="#fff">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <input type="text" id="search" placeholder="Address" />
+
+  <map></map>
+
+  <controls>
+    <ul>
+      <li name="clear">
+        Clear
+      </li>
+      <li name="zoomin">
+        Zoom-in
+      </li>
+      <li name="zoomout">
+        Zoom-out
+      </li>
+      <li name="location">
+        Location
+      </li>
+    </ul>
+  </controls>
+
+  <script type="text/javascript" src="https://maps.google.com/maps/api/js?libraries=places&callback=initMap&key=YOUR_API_KEY"
+    async defer></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

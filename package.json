@@ -1,0 +1,21 @@
+{
+  "name": "google-maps-starter",
+  "version": "1.0.0",
+  "author": {
+    "name": "Amir Honarpour",
+    "email": "amir@honarpour.com",
+    "url": "http://honarpour.com/code"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/honarpour/google-maps-starter.git"
+  },
+  "scripts": {
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  },
+  "dependencies": {}
+}
